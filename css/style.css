@@ -1,4 +1,7 @@
+/*tipografia*/
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap");
+
+/*estilos principais*/
 @import url("./global/global.css");
 @import url("./utils/tipography.css");
 @import url("./utils/cores.css");
@@ -20,3 +23,5 @@
 /*paginas*/
 @import url("./termos/termos.css");
 @import url("./bicicletas/bicicletas.css");
+@import url("./seguros/vantagens.css");
+@import url("./seguros/perguntas.css");
