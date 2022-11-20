@@ -11,6 +11,7 @@
 
 /*utilidades*/
 @import url("./utils/components.css");
+@import url("./utils/formulario.css");
 
 /*home*/
 @import url("./home/introducao.css");
@@ -27,3 +28,5 @@
 @import url("./seguros/perguntas.css");
 @import url("./bicicleta/bicicleta.css");
 @import url("./bicicleta/seguro.css");
+@import url("./contato/contato.css");
+@import url("./contato/lojas.css");
