@@ -50,11 +50,11 @@
   transition: 0.3s;
 }
 
-.faq dd {
+.js .faq dd {
   display: none;
 }
 
-.faq dd.ativa {
+.js .faq dd.ativa {
   display: block;
 }
 .faq dd {
