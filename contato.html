@@ -56,7 +56,7 @@
         </div>
       </section>
       <section class="contato-form" aria-label="Formulário">
-        <form class="form" action="./contato.html">
+        <form class="form" method="post" action="./enviar.php">
           <div>
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" placeholder="Nome">
@@ -67,7 +67,7 @@
           </div>
           <div class="col-2">
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="contato@email.com">
+            <input type="email" name="email" id="email" placeholder="contato@email.com" required>
           </div>
           <div class="col-2">
             <label for="mensagem">Mensagem</label>
@@ -149,6 +149,7 @@
 
   </footer>
   <script src="./js/script.js"></script>
+  <script src="./js/formulario.js"></script>
 </body>
 
 </html>
